@@ -7,13 +7,13 @@ import IncomeExpense from "./components/IncomeExpense"
 
 const App = () => {
     return (
-        <>
+        <div className="container">
             <Header />
             <Balance />
             <IncomeExpense />
             <TransactionList />
             <AddTransaction />
-        </>
+        </div>
     )
 }
 
